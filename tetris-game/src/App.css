@@ -1,0 +1,21 @@
+.tetris {
+  text-align: center;
+}
+.board {
+  display: inline-block;
+  background: #333;
+  padding: 5px;
+}
+.row {
+  display: flex;
+}
+.cell {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  background: #111;
+}
+.game-over {
+  color: red;
+  font-size: 1.5em;
+}
